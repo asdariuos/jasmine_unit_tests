@@ -1,5 +1,5 @@
 import test from "@ogginger/testsuite";
-import { tests } from "./mycode";
+//import { tests } from "./mycode";
 import { tests2 } from "./unitTestingExamples";
 
 async function main() {
