@@ -19,13 +19,22 @@ export const tests2: any[] = [
 
 },
 
-    {
+    { //subtask 2.) extend our test.
         name: "petCat should return a louder meow",
         input:["compliment"],
         function: petCat,
         output:"MEOW",
         debug: true,
 
+    },
+
+    {// subtask 3.) A second unit test.
+        name: "petCat, pets a cat with 'compliment1' return a louder MEOW",
+        input:["compliment1"],
+        function: petCat,
+        output:"MEOW",
+        debug: true,
     }
+
 
 ];

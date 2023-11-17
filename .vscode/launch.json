@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Launch Jasmine_unit_tests",
+        "program": "${workspaceFolder}/builds/main.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node",
+    }
+
+    ],
+    "compounds": []
+}
